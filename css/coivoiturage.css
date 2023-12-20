@@ -1,0 +1,151 @@
+body{
+    margin: 0%;
+}
+
+div.covoit{
+    background-image: url(../image/covoiturage_blog2.png);
+    background-size: cover;
+    height: 400px;
+}
+
+div.covoit>p{
+    margin: 0%;
+}
+
+.texte{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+div.rouge{
+    margin: 0%;
+    background-color: red;
+    width: 100%;
+    height: 1600px;
+}
+
+div.box{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 95%;
+    height: 900px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 50px;
+}
+
+div.form{
+    width: 50%;
+    left: 50%;
+    transform: translate(50%);
+    text-align: left;
+    padding-top: 7%;
+    font-size: 20px;
+}
+
+
+div.formulaire>input{
+    width: 700px;
+    height: 25px;
+    background-color: rgb(224, 221, 221);
+    border-radius: 5px;
+}
+
+div.formulaire{
+   margin-top: 5%;
+}
+
+div.cocher>input{
+    margin-top: 0%;
+}
+
+.c{
+    margin-top: 7%;
+}
+
+.form>button{
+    margin-top: 5%;
+    height: 40px;
+}
+
+.autre{
+    position: absolute;
+    top: 170%;
+    font-size: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: bold;
+}
+
+div.box_transport{
+    position: absolute;
+    top: 1550px;
+    left: 7%;
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 50px;
+
+
+}
+
+div.box_elec{
+    position: absolute;
+    top: 1550px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 50px;
+}
+
+div.box_covoiturage{
+    position: absolute;
+    top: 1550px;
+    right: 7%;
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 50px;
+}
+
+.i{
+    position: absolute;
+    width: 350px;
+    left: 50%;
+    transform: translate(-50%);
+    top: -100px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 0px 50px;
+}
+
+p.txt1{
+    margin-top: 170px;
+    color: aqua;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+p.txt2{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+p.txt3{
+    font-size: 20px;
+    text-align: left;
+    padding: 0px 30px;
+    color: rgb(163, 162, 162);
+}

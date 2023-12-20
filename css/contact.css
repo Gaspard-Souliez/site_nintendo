@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+}
+
+div.impression{
+    position: absolute;
+    top: 8%;
+    height: 400px;
+    width: 400px;
+    left: 20%;
+    margin-top: 10%;
+}
+
+div.formulaire>input{
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+div.formulaire{
+    margin-top: 5%;
+}
+
+.impression>button{
+    margin-top: 5%;
+    height: 40px;
+}
+
+div.loca{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 42%;
+    right: 20%;
+    float: left;
+}
+
+div.cont{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 62%;
+    right: 20%; 
+}
+
+div.loca>img, div.cont>img{
+    width: 20px;
+}
+
+.flotte{
+    float: left;
+}
+
+.flotte2{
+    font-size: 25px;
+    margin: 2px;
+}
+
+.imp{
+    font-size: 30px;
+    font-weight: 600;
+}
